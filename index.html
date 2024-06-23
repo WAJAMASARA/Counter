@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--StyleSheet for the styles-->
     <link rel="stylesheet" href="stylesheet.css">
+    <!--Title of the page-->
     <title>Counter</title>
 </head>
 <body>
-    <h1>People Entered: </h1>
-    <h2 id="count-el">0</h2>
-     <!-- Add button for increment count-->
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <button id="reset-btn" onclick="reset()">RESET</button>
-    <button id="clear-btn" onclick="remove()">CLEAR</button>
-    <h3 id="save-el">Previous entries: </h3>
+    <div id="Inc-result">
+        <h1>People Entered: </h1>
+        <h2 id="count-el">0</h2>
+    </div>
+    <div id="button-set">
+        <!-- Buttons for functionality-->
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+        <button id="clear-btn" onclick="remove()">CLEAR</button>
+        <h3 id="save-el">Previous entries: </h3>
+    </div>
+    
+
+    <!--JavaScript for the function call-->
     <script src="index.js"></script>
 </body>
 </html>
