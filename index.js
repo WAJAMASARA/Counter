@@ -11,3 +11,8 @@ function increment() {
 function save() {
     let final = count;
 }
+
+function reset() {
+    countEl.innerText = 0;
+    count = 0;
+}
