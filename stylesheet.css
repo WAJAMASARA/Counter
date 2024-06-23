@@ -1,5 +1,5 @@
 body{
-    background-image: url(station.jpg);
+    background-image: url(station.webp);
     background-size: cover;
     font-weight: bold;
     text-align: center;
@@ -20,7 +20,7 @@ h2{
     margin-top: 0;
     margin-bottom: 20px;
     margin-left: 190px;
-    color: white;
+    color: black;
 }
 
 h3{
